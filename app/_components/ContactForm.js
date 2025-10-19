@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { createMessage } from "../_libs/actions";
 import toast from "react-hot-toast";
+import { MiniSpinner } from "./MiniSpinner";
 
 function ContactForm() {
   const [isLoading, setIsLoading] = useState(false);
@@ -11,19 +12,30 @@ function ContactForm() {
     e.preventDefault();
 
     console.log("message sent");
-    // setIsLoading(true);
+    setIsLoading(true);
     const formData = new FormData(e.target);
     const fullName = formData.get("fullName")?.trim();
     const email = formData.get("email")?.trim();
     const message = formData.get("message")?.trim();
+
     try {
+      const res = await fetch("/api/send-message", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ fullName, email, message }),
+      });
+
+      if (!res.ok) throw new Error("Network response was not ok");
+
       await createMessage({ fullName, email, message });
+
       toast.success("Message sent!");
       e.target.reset();
-      setIsLoading(false);
     } catch (err) {
       toast.error("Failed to send. Try again.");
       console.log(err);
+    } finally {
+      setIsLoading(false);
     }
   }
 
@@ -91,7 +103,7 @@ function ContactForm() {
             type="submit"
             className="border   border-gray-200 dark:border-gray-600 flex items-end text-black/70 dark:text-slate-400 font-medium py-2 px-4 text-[0.8rem] rounded-md  "
           >
-            Send
+            {isLoading ? <MiniSpinner /> : "Send"}
           </button>
         </div>
       </form>
