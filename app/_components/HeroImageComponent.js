@@ -6,7 +6,7 @@ function HeroImageComponent() {
       <div className="flex justify-center items-center mt-10 ">
         <div className="rounded-full border-2  border-purple-700 p-8 mb-6">
           <Image
-            src="/portfolio-img.webp"
+            src="/portfolio-img.WEBP"
             className="rounded-full  sm:w-80 sm:h-80 lg:w-64 lg:h-64 xl:w-80 xl:h-80"
             width={250}
             height={250}

@@ -6,7 +6,7 @@ function AboutImageComponent() {
       <div data-aos="fade-up" className="flex justify-center items-center mt-10 ">
         <div className="rounded-full border-2  border-purple-700 p-8 mb-6">
           <Image
-            src="/portfolio-img.webp"
+            src="/portfolio-img.WEBP"
             className="rounded-full  sm:w-80 sm:h-80  lg:w-96 lg:h-96"
             width={250}
             height={250}
