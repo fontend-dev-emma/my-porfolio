@@ -49,6 +49,15 @@ export const metadata = {
     locale: "en_US",
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    site: "@mullar_pro_dev",
+    creator: "@mullar_pro_dev",
+    title: "Waziri Emmanuel | Frontend Developer",
+    description: "Building fast, elegant, and responsive web experiences.",
+    images: ["https://waziri.dev/portfolio-img.WEBP"],
+  },
+
   icons: {
     icon: "/my-favico.png",
     apple: "/my-favico.png",

@@ -6,20 +6,36 @@ import HeroTextComponent from "./_components/HeroTextComponent";
 import TechStackSection from "./_components/TechStackSection";
 
 export const metadata = {
-  title: "Home || My porfolio",
-  description: "Track your shipments in real-time and enjoy smooth delivery worldwide and beyond with SwiftPort Logistics.",
-  keywords: ["SwiftPort", "swift", "port", "logistics", "shipping", "delivery", "cargo", "freight", "tracking"],
+  title: "Home || Waziri Emmanuel Portfolio",
+  description:
+    "Waziri Emmanuel — Front-end Developer and Web Designer. Explore my projects, skills, and services for web development, design, and creative solutions.",
+  metadataBase: new URL("https://waziri.dev"),
+  keywords: [
+    "Waziri Emmanuel",
+    "portfolio",
+
+    "full-stack developer",
+    "frontend developer",
+    "web developer",
+    "web design",
+    "projects",
+    "UI/UX",
+    "JavaScript",
+    "React",
+    "nextJs",
+    "Tailwind CSS",
+  ],
   openGraph: {
-    title: "SwiftPort Logistics",
-    description: "Reliable international shipping and real-time cargo tracking.",
-    url: "https://swiftport.uk",
-    siteName: "SwiftPort Logistics",
+    title: "Waziri Emmanuel Portfolio",
+    description: "Showcasing my web development projects, responsive designs, and creative solutions.",
+    url: "https://waziri.dev",
+    siteName: "Waziri Emmanuel Portfolio",
     images: [
       {
         url: "/my-favico.png",
         width: 1200,
         height: 630,
-        alt: "SwiftPort Logistics preview",
+        alt: "Waziri Emmanuel Portfolio preview",
       },
     ],
     locale: "en_US",

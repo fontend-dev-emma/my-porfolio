@@ -11,7 +11,6 @@ function ContactForm() {
   async function handleSubmit(e) {
     e.preventDefault();
 
-    console.log("message sent");
     setIsLoading(true);
     const formData = new FormData(e.target);
     const fullName = formData.get("fullName")?.trim();

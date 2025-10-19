@@ -29,15 +29,20 @@ function Footer() {
         </div>
 
         <div className="flex -mb-2 sm:mt-8 md:pt-6 md:pl-10 xl:pl-32  flex-row space-x-4 xl:space-x-8  text-gray-700 dark:text-slate-400 ">
-          <a href="#" className="hover:text-purple-300 transition">
+          <Link href="https://github.com/fontend-dev-emma" target="_blank" rel="noopener" className="hover:text-purple-300 transition">
             <i className="devicon-github-original  text-xl lg:text-4xl"></i>
-          </a>
-          <a href="#" className="hover:text-purple-300 transition">
+          </Link>
+          <Link
+            href="https://www.linkedin.com/in/waziri-emmanuel-87215436b/"
+            target="_blank"
+            rel="noopener"
+            className="hover:text-purple-300 transition"
+          >
             <i className="devicon-linkedin-plain text-xl lg:text-4xl"></i>
-          </a>
-          <a href="#" className="hover:text-purple-300 transition">
+          </Link>
+          <Link href="https://x.com/mullar_pro_dev" target="_blank" rel="noopener" className="hover:text-purple-300 transition">
             <i className="devicon-twitter-original text-xl lg:text-4xl"></i>
-          </a>
+          </Link>
         </div>
       </div>
 

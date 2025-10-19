@@ -4,6 +4,7 @@ export const metadata = {
   title: "Projects || Waziri Emmanuel Portfolio",
   description:
     "Explore a collection of web development projects by Waziri Emmanuel, showcasing expertise in frontend development, UI/UX design, and interactive web experiences.",
+  metadataBase: new URL("https://waziri.dev"),
   keywords: [
     "Waziri Emmanuel projects",
     "portfolio projects",

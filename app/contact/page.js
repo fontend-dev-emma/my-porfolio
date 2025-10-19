@@ -4,6 +4,7 @@ import ContactForm from "../_components/ContactForm";
 export const metadata = {
   title: "Contact || Waziri Emmanuel Portfolio",
   description: "Get in touch with Waziri Emmanuel for collaboration, freelance work, or project inquiries. I'm open to new opportunities and ideas.",
+  metadataBase: new URL("https://waziri.dev"),
   keywords: [
     "contact Waziri Emmanuel",
     "hire frontend developer",

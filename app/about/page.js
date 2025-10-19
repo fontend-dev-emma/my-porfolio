@@ -6,6 +6,7 @@ export const metadata = {
   title: "About || Waziri Emmanuel Portfolio",
   description:
     "Learn more about Waziri Emmanuel, a front-end developer passionate about building clean, responsive, and high-performance web applications.",
+  metadataBase: new URL("https://waziri.dev"),
   keywords: ["about Waziri Emmanuel", "front-end developer", "web development journey", "skills", "experience"],
   openGraph: {
     title: "About Waziri Emmanuel",
