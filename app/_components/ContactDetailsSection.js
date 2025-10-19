@@ -30,7 +30,7 @@ function ContactDetailsSection() {
               <Mail className="w-5 h-5 text-purple-500" />
               <span>Email:</span>
             </td>
-            <td className="py-2 text-blue-600 ">yourname@email.com</td>
+            <td className="py-2 text-blue-600 ">contact@waziri.dev</td>
           </tr>
         </tbody>
       </table>

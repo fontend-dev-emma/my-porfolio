@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function HeroImageComponent() {
   return (
-    <div data-aos="fade-up" className="pt-6  backdrop-blur-3xl  px-6   lg:place-items-end  lg:backdrop-blur-none lg:pt-20  xl:pt-28  ">
+    <div data-aos="zoom-in" className="pt-6  backdrop-blur-3xl  px-6   lg:place-items-end  lg:backdrop-blur-none lg:pt-20  xl:pt-28  ">
       <div className="flex justify-center items-center mt-10 ">
         <div className="rounded-full border-2  border-purple-700 p-8 mb-6">
           <Image
