@@ -21,7 +21,7 @@ function FeaturedProjectsSection() {
 
         <ProjectCard
           imageSrc="/swift-port.png"
-          title="SwiftPort"
+          title="Swift Port"
           projectURL="https://swiftport.uk"
           description="SwiftPort helps users manage shipments efficiently with real-time tracking, status updates, and a smooth, intuitive dashboard for seamless logistics management."
           tools={[
