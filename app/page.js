@@ -8,7 +8,7 @@ import TechStackSection from "./_components/TechStackSection";
 export const metadata = {
   title: "Home || Waziri Emmanuel Portfolio",
   description:
-    "Waziri Emmanuel — Front-end Developer and Web Designer. Explore my projects, skills, and services for web development, design, and creative solutions.",
+    "Waziri Emmanuel — Front-end Developer and Web Designer. Explore my projects, skills, and services for web development, UI/UX design, and creative solutions.",
   metadataBase: new URL("https://waziri.dev"),
   keywords: [
     "Waziri Emmanuel",
