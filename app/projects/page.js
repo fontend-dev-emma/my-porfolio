@@ -58,7 +58,7 @@ function page() {
 
           <ProjectCard
             imageSrc="/swift-port.png"
-            title="Cineverse"
+            title="SwiftPort"
             projectURL="https://swiftport.uk"
             description="SwiftPort is a full-stack logistics management platform that simplifies shipment handling through real-time tracking, automated status updates, and invoice downloads, all powered by an intuitive dashboard and robust admin panel for seamless end-to-end control."
             tools={[
