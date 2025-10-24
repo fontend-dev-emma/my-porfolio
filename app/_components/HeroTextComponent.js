@@ -32,6 +32,8 @@ function HeroTextComponent() {
         <Link
           data-aos="zoom-out"
           href="https://docs.google.com/document/d/1aw-vg5i5Xju2bP9IRuhTpDI7TBam2nAfhw706qr0ROo/edit?usp=drivesdk"
+          target="_blank"
+          rel="noopener noreferrer"
           className="px-4 lg:px-6 border border-gray-400 text-[0.85rem] lg:text-md py-2  text-gray-600 dark:text-slate-400 rounded-lg  capitalize font-bold"
         >
           📂 RESUME
