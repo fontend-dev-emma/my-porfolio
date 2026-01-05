@@ -20,6 +20,31 @@ function FeaturedProjectsSection() {
         />
 
         <ProjectCard
+          imageSrc="/global-vest.png"
+          title="Global-Vest"
+          projectURL="https://www.global-vest.com/"
+          description="Global Vest Investment System is a full-stack investment platform that enables secure user investments, real-time portfolio tracking, automated trade profit updates, and user/admin dashboard management."
+          tools={[
+            "Supabase",
+            "javaScript",
+            "Tailwind CSS",
+            "trading-view",
+            "Aos",
+            "React",
+            "Next.js",
+            "Brevo / SMTP",
+            "BcryptJs",
+            "Chart.js",
+            "react-hot-toast",
+            "Lucide-react",
+            "Framer-motion",
+            "Otplip",
+            "React-quill-new",
+            "TanStack Query",
+          ]}
+        />
+
+        <ProjectCard
           imageSrc="/swift-port.png"
           title="Swift Port"
           projectURL="https://swiftport.uk"

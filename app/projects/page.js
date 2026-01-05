@@ -49,6 +49,31 @@ function page() {
 
         <div className=" px-5 pb-28 sm:pb-32 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 md:gap-x-8 lg:gap-x-16 sm:justify-items-center  gap-y-14 sm:gap-y-20 sm:px-28 md:px-8 lg:px-24 xl:px-10 lg:pb-40 ">
           <ProjectCard
+            imageSrc="/global-vest.png"
+            projectURL="https://www.global-vest.com/"
+            title="Global-Vest"
+            description="Global Vest Investment System is a full-stack investment and portfolio management platform that allows users to securely invest, track active trades, and monitor portfolio growth in real time. The system includes user and admin dashboards, automated trade profit calculations via scheduled background jobs, role-based access control, and secure balance management, built with modern web technologies for scalability and reliability."
+            tools={[
+              "Supabase",
+              "javaScript",
+              "Tailwind CSS",
+              "trading-view",
+              "Aos",
+              "React",
+              "Next.js",
+              "Brevo / SMTP",
+              "BcryptJs",
+              "Chart.js",
+              "react-hot-toast",
+              "Lucide-react",
+              "Framer-motion",
+              "Otplip",
+              "React-quill-new",
+              "TanStack Query",
+            ]}
+          />
+
+          <ProjectCard
             imageSrc="/cineverse.png"
             projectURL="https://emma-cineverse.netlify.app"
             title="Cineverse"
